@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MGK8N8TS');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5KZK4TJ7');</script>
+<!-- End Google Tag Manager -->
+
+
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- العنوان الأصلي للموقع تم الإبقاء عليه لأفضلية محركات البحث للعلامة التجارية -->
+  <title>الكابتن إكسبريس لنقل العفش والأثاث</title>
+  <!-- الوصف التعريفي الأصلي تم الإبقاء عليه لأنه موجز ومناسب -->
+  <meta name="description" content="شركة الكابتن إكسبريس لنقل العفش والأثاث — نقل داخلي بين المدن، تغليف احترافي، ونش رفع، عمالة مدربة وخدمة 24/7." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700;900&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      /* Palette derived from screenshot */
+      --brand-red:#EA1831;     /* CTA, highlights */
+      --navy:#1B2A3A;          /* dark footer/overlays */
+      --sky:#E9F2FF;           /* top bar */
+      --mint:#F2FAF4;          /* soft sections/cards */
+      --muted:#6B7280;         /* secondary text */
+      --text:#222;             /* body text */
+      --card:#ffffff;          /* card bg */
+      --border:#EAEAEA;        /* light border */
+      --shadow:0 12px 28px rgba(0,0,0,.06);
+      --radius:14px;
+      --container:1180px;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;font-family:"Cairo",system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--text);background:#fff}
+    img{max-width:100%;display:block}
+    a{color:inherit;text-decoration:none}
+    .container{max-width:var(--container);margin-inline:auto;padding-inline:16px}
+    .btn{display:inline-flex;align-items:center;gap:.6rem;background:var(--brand-red);color:#fff;padding:.9rem 1.25rem;border-radius:999px;font-weight:800;box-shadow:var(--shadow);transition:transform .18s ease,opacity .18s ease}
+    .btn:hover{transform:translateY(-1px);opacity:.95}
+    .btn--light{background:#fff;color:var(--brand-red);border:2px solid var(--brand-red)}
+    .badge{background:#fff;border:1px solid var(--border);border-radius:999px;padding:6px 12px;margin:4px;display:inline-block;font-weight:800}
+    .section{padding:72px 0}
+    .section--soft{background:var(--mint)}
+    .title{font-size:clamp(22px,3.6vw,36px);margin:0 0 8px;font-weight:900}
+    .subtitle{color:var(--muted);margin:0 0 28px}
+
+    /* Top utility bar */
+    .topbar{background:var(--sky);font-size:14px}
+    /* MODIFIED: Added wrap and center for mobile */
+    .topbar__grid{display:flex;justify-content:center;align-items:center;gap:12px;padding:8px 0;flex-wrap:wrap}
+    /* MODIFIED: Added center for mobile */
+    .inline{display:flex;align-items:center;gap:12px;flex-wrap:wrap;justify-content:center}
+    .chip{background:#fff;border:1px solid var(--border);border-radius:999px;padding:4px 10px}
+
+    /* Header */
+    header{background:#fff;border-bottom:1px solid var(--border);position:sticky;top:0;z-index:50}
+    .nav{display:flex;justify-content:space-between;align-items:center;padding:12px 0}
+    .brand{display:flex;align-items:center;gap:10px}
+    .brand__logo{width:42px;height:42px;border-radius:12px;overflow:hidden;background:#fff;display:grid;place-items:center;border:1px solid var(--border)}
+    .brand__logo img{width:100%;height:100%;object-fit:contain}
+    .nav__links{display:flex;gap:18px}
+    /* ADDED: Hide nav links (except CTA button) on mobile */
+    .nav__links a:not(.btn){display:none}
+    .nav__links a:hover{background:#f7f7f7}
+
+    /* HERO */
+    /* MODIFICATION 1: Increased hero height */
+    .hero{position:relative;min-height: 60svh; /* MODIFIED: Increased height from 30svh */ display:grid;place-items:center;color:#fff}
+    /* UPDATED IMAGE PATH */
+    .hero::before{content:"";position:absolute;inset:0;background:url('images/hero.jpg') center/cover no-repeat;filter:brightness(.6)}
+    .hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgb(27 42 58 / 0%),rgb(27 42 58 / 0%))}
+    .hero__inner{position:relative;z-index:1;display:grid;gap:18px;place-items:center;text-align:center;padding:24px}
+    .hero__bubble{position:absolute;inset:auto auto -12% 50%;transform:translateX(-50%);width:min(72vmin,720px);aspect-ratio:1;border-radius:50%;background:radial-gradient(circle at 50% 50%,rgba(0,0,0,.35),rgba(0,0,0,.15) 68%,transparent 70%);z-index:0;filter:blur(0.2px)}
+    .hero h1{font-size:clamp(28px,5vw,48px);margin:0;line-height:1.2}
+    .hero p{max-width:820px;color:#f0f4f8}
+    .hero__cta{display:flex;gap:10px;flex-wrap:wrap;justify-content:center}
+
+    /* NEW INTRO SECTION */
+    .intro-section {
+      background-color: var(--sky);
+      /* Subtle background pattern */
+      background-image: 
+        radial-gradient(circle at 15% 20%, rgba(255,255,255,0.3) 20px, transparent 20.5px),
+        radial-gradient(circle at 80% 30%, rgba(255,255,255,0.4) 30px, transparent 30.5px),
+        radial-gradient(circle at 25% 70%, rgba(255,255,255,0.2) 40px, transparent 40.5px),
+        radial-gradient(circle at 70% 85%, rgba(255,255,255,0.3) 15px, transparent 15.5px);
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      overflow: hidden; /* To contain animation */
+    }
+    .intro__inner {
+      text-align: center;
+      max-width: 820px; /* Match hero p width */
+      margin-inline: auto;
+      /* Animation styles moved to .scroll-animate */
+    }
+    /* Removed .intro-section.is-visible .intro__inner */
+
+    /* NEW: Re-usable animation class */
+    .scroll-animate {
+      opacity: 0; /* Hidden by default for animation */
+      transform: translateY(40px);
+      transition: opacity 0.6s ease-out, transform 0.6s ease-out; /* Fallback */
+    }
+    .scroll-animate.is-visible {
+      opacity: 1;
+      transform: translateY(0);
+      animation: bounce-in 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+    }
+
+    /* Re-apply hero's h1/p styles */
+    .intro-section h1 {
+      font-size: clamp(28px, 5vw, 48px); /* Match hero h1 */
+      margin: 0 0 18px; /* Add margin bottom */
+      line-height: 1.2;
+      font-weight: 900; 
+    }
+    .intro-section p {
+      font-size: 1.1rem; 
+      color: var(--muted);
+      line-height: 1.7;
+    }
+
+    @keyframes bounce-in {
+      0% {
+        opacity: 0;
+        transform: translateY(40px) scale(0.95);
+      }
+      60% {
+        opacity: 1;
+        transform: translateY(-10px) scale(1.02);
+      }
+      80% {
+        transform: translateY(5px) scale(0.99);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+      }
+    }
+
+    /* WHY US */
+    .why{background:#fff}
+    .why__title{position:relative;text-align:center}
+    .why__title span{color:var(--brand-red)}
+    .why__grid{display:grid;gap:18px;margin-top:20px}
+    @media(min-width:980px){.why__grid{grid-template-columns:1fr 360px 1fr}}
+    .feature{background:var(--mint);border:1px solid var(--border);border-radius:var(--radius);padding:14px}
+    .feature__icon{width:44px;height:44px;border-radius:50%;background:rgba(234,24,49,.12);display:grid;place-items:center;font-size:20px;margin-bottom:8px}
+    .why__center{border-radius:var(--radius);overflow:hidden;border:1px solid var(--border);box-shadow:var(--shadow)}
+
+    /* ABOUT SPLIT */
+    .about__grid{display:grid;gap:22px;align-items:start}
+    @media(min-width:1080px){.about__grid{grid-template-columns:1.1fr 1fr 1fr}}
+    .about__img{position:relative;border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);border:1px solid var(--border)}
+    .about__img::before{content:"";position:absolute;inset-block:0;inset-inline-start:0;width:6px;background:var(--brand-red)}
+    .about__card{background:var(--mint);border:1px solid var(--border);border-radius:var(--radius);padding:16px}
+    .about__callout{background:#F3F5FF;border:1px solid var(--border);border-radius:var(--radius);padding:16px}
+    .kpis{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin:10px 0}
+    .kpi{background:#fff;border:1px solid var(--border);border-radius:12px;padding:10px;text-align:center}
+
+    /* STATS STRIP */
+    .stats{position:relative;color:#fff;min-height:280px;display:grid;place-items:center}
+    /* UPDATED IMAGE PATH */
+    .stats::before{content:"";position:absolute;inset:0;background:url('images/trucks.jpg') center/cover no-repeat;filter:brightness(.5)}
+    .stats::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(234,24,49,.35),rgba(27,42,58,.55))}
+    .stats__inner{position:relative;z-index:1;text-align:center}
+    .stats__number{font-size:clamp(30px,6vw,72px);font-weight:900}
+
+    /* NEW: Marquee Flowing Images */
+    @keyframes scroll-x {
+      from { transform: translateX(0); }
+      to { transform: translateX(-100%); } /* Moves one full set of images */
+    }
+    .marquee-section {
+      padding: 0; /* No top/bottom padding for this full-bleed section */
+      background: var(--mint); /* Use a soft background */
+    }
+    .marquee {
+      overflow: hidden;
+      position: relative;
+      width: 100%;
+      display: flex;
+      padding: 32px 0; /* Add some vertical space */
+    }
+    .marquee__track {
+      display: flex;
+      gap: 20px;
+      /* 10 images * 2 sets = 20 images. Assuming 300px width + 20px gap */
+      width: calc(320px * 20); 
+      animation: scroll-x 60s linear infinite;
+      will-change: transform;
+    }
+    .marquee__track img {
+      width: 300px; /* Fixed width for consistency */
+      height: 200px; /* Fixed height */
+      object-fit: cover;
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      border: 3px solid #fff;
+    }
+    .marquee:hover .marquee__track {
+        animation-play-state: paused; /* Pause on hover */
+    }
+    /* END Marquee */
+
+
+    /* SERVICES */
+    /* MODIFIED: Default to 1 column */
+    .services__grid{display:grid;gap:16px;grid-template-columns:1fr}
+    /* ADDED: 2 columns for tablet */
+    @media(min-width:640px){.services__grid{grid-template-columns:repeat(2,1fr)}}
+    @media(min-width:980px){.services__grid{grid-template-columns:repeat(3,1fr)}}
+    .service{background:#fff;border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow); overflow: hidden; padding: 0;} /* MODIFIED: Removed padding, added overflow */
+    .service__img { /* NEW */
+      width: 100%;
+      aspect-ratio: 16/10;
+      object-fit: cover;
+      display: block;
+    }
+    .service__body { /* NEW */
+      padding: 18px; /* Apply original padding here */
+    }
+    .service__icon{width:48px;height:48px;border-radius:50%;background:rgba(234,24,49,.12);display:grid;place-items:center;font-size:22px;margin-bottom:10px}
+
+    /* BLOG */
+    /* MODIFIED: Default to 1 column */
+    .blog__grid{display:grid;gap:18px;grid-template-columns:1fr}
+    /* ADDED: 2 columns for tablet */
+    @media(min-width:640px){.blog__grid{grid-template-columns:repeat(2,1fr)}}
+    @media(min-width:980px){.blog__grid{grid-template-columns:repeat(3,1fr)}}
+    .post{background:#fff;border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow)}
+    .post img{aspect-ratio:16/10;object-fit:cover}
+    .post__body{padding:14px}
+    .post .meta{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:8px}
+    .pill{background:#fff;border:1px solid var(--border);border-radius:999px;padding:4px 10px;font-size:12px}
+
+    /* CTA RIBBON */
+    .cta{position:relative;color:#fff;border-radius:var(--radius);overflow:hidden}
+    /* UPDATED IMAGE PATH */
+    .cta::before{content:"";position:absolute;inset:0;background:url('images/packing.jpg') center/cover no-repeat;filter:brightness(.6)}
+    .cta::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(27,42,58,.75),rgba(234,24,49,.55))}
+    .cta__inner{position:relative;z-index:1;padding:28px}
+
+    /* FOOTER */
+    footer{background:var(--navy);color:#fff}
+    .footer__top{background:#F7FAFC;color:var(--text)}
+    .footer__grid{display:grid;gap:18px}
+    @media(min-width:980px){.footer__grid{grid-template-columns:1.4fr 1fr 1fr}}
+    .footer__title{font-weight:800;margin:0 0 8px}
+    .copyright{border-top:1px solid rgba(255,255,255,.12);padding:12px 0;opacity:.85}
+
+    /* ADDED: Show nav links and reset topbar on desktop */
+    @media(min-width: 980px) {
+        .topbar__grid { justify-content: space-between; }
+        .inline { justify-content: flex-start; }
+        .nav__links a:not(.btn) { display: inline-flex; }
+    }
+
+    /* Helpers */
+    .center{text-align:center}
+    .muted{color:var(--muted)}
+    .mt-10{margin-top:10px}.mt-20{margin-top:20px}.mt-30{margin-top:30px}
+
+    /* NEW: Floating Call Button */
+    .floating-btn {
+      position: fixed;
+      bottom: 20px;
+      left: 20px; /* Aligns to bottom-left for RTL */
+      z-index: 100;
+      background-color: var(--brand-red);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 12px 18px;
+      border-radius: 999px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+      font-weight: 800;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      font-size: 1.1rem;
+    }
+    .floating-btn:hover {
+      transform: translateY(-2px) scale(1.02);
+      box-shadow: 0 12px 30px rgba(0,0,0,0.2);
+      opacity: 1; /* Override default hover */
+    }
+    .floating-btn svg {
+      width: 20px;
+      height: 20px;
+      fill: currentColor;
+      transform: scaleX(-1); /* NEW: Flipped icon for RTL */
+    }
+    /* MODIFICATION 2: Removed media query that hides text on mobile */
+    /*
+    @media (max-width: 640px) {
+      .floating-btn span {
+        display: none; 
+      }
+      .floating-btn {
+        padding: 14px;
+        border-radius: 50%;
+      }
+    }
+    */
+
+    /* NEW: Call Confirmation Modal */
+    .modal-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(27, 42, 58, 0.7); /* Use --navy with alpha */
+      backdrop-filter: blur(4px);
+      display: none; /* Hidden by default */
+      align-items: center;
+      justify-content: center;
+      z-index: 999;
+      padding: 16px;
+      opacity: 0;
+      transition: opacity 0.2s ease-out;
+    }
+    .modal-overlay.is-visible {
+      display: flex;
+      opacity: 1;
+    }
+    .modal-box {
+      background: #fff;
+      border-radius: var(--radius);
+      padding: 24px 28px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      text-align: center;
+      max-width: 420px;
+      width: 100%;
+      opacity: 0;
+      transform: translateY(20px) scale(0.95);
+      transition: all 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+    .modal-overlay.is-visible .modal-box {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+    .modal-box h3 {
+      margin: 0 0 10px;
+      font-weight: 900;
+      font-size: 24px;
+      color: var(--navy);
+    }
+    .modal-box p {
+      color: var(--muted);
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+    .modal-buttons {
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      margin-top: 24px;
+      flex-wrap: wrap; /* For small screens */
+    }
+    .modal-buttons .btn {
+      padding: .9rem 1.5rem;
+    }
+
+    /* NEW: Animation for phone icon */
+    @keyframes ring {
+      0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(234, 24, 49, 0.7); }
+      50% { transform: scale(1.1); box-shadow: 0 0 0 10px rgba(234, 24, 49, 0.3); }
+      100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(234, 24, 49, 0.0); }
+    }
+    .phone-icon-animated {
+      display: inline-flex;
+      padding: 20px;
+      background: var(--brand-red);
+      color: #fff;
+      border-radius: 50%;
+      animation: ring 1.5s infinite cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      margin-top: 16px;
+    }
+
+  </style>
+</head>
+<body>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MGK8N8TS"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5KZK4TJ7"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+
+
+  <!-- Topbar -->
+  <div class="topbar">
+    <div class="container topbar__grid">
+      <div class="inline">
+       
+        <span class="chip">⏰ 24/7</span>
+      </div>
+      <div class="inline">
+        <a class="chip" href="tel:01029896936">📞 01029896936</a>
+        <a class="chip" href="https://wa.me/201029896936" target="_blank" rel="noopener">🟢 واتساب</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header / Nav -->
+  <header>
+    <div class="container nav">
+      <div class="brand">
+        <div class="brand__logo"><img src="images/alcaptin.png" alt="شعار الكابتن إكسبريس"></div>
+        <strong>الكابتن إكسبريس</strong>
+      </div>
+      <nav class="nav__links">
+        <a href="#why">لماذا نحن</a>
+        <a href="#about">عن الشركة</a>
+        <a href="#services">الخدمات</a>
+        <a href="#blog">كيف نعمل</a> <!-- تم تغيير النص ليطابق المحتوى الجديد -->
+        <a class="btn" href="#contact">اطلب عرض سعر</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__bubble" aria-hidden="true"></div>
+    <div class="container hero__inner"><br><br><br><br><br><br>
+      <!-- تم إزالة المحتوى من هنا -->
+      <!-- الأزرار بقيت كما هي -->
+      <div class="hero__cta">
+        <a class="btn" href="#contact">اطلب الخدمة الآن</a>
+        <a class="btn btn--light" href="tel:01029896936">اتصل بنا</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEW INTRO SECTION -->
+  <section id="intro" class="section intro-section">
+    <div class="container">
+      <div class="intro__inner scroll-animate"> <!-- ADDED class -->
+        <!-- تم نقل المحتوى إلى هنا -->
+        <h1><strong>نقل عفش</strong> سريع وآمن مع شركة محترفة تهتم بكل قطعة في بيتك</h1>
+        <p>لو بتدور على <strong>شركة لنقل العفش</strong> تكون محترفة، ملتزمة، وتفهم يعني إيه كل قطعة أثاث عندك ليها قيمة ومعنى، فأنت في المكان الصحيح. نقدّم لك خدمة <strong>نقل عفش</strong> متكاملة داخل وخارج القاهرة، مع إمكانية استخدام <strong>ونش رفع العفش</strong> للأدوار العالية، وتغليف كامل لكل الأثاث والأجهزة لحمايتها من أي خدش أو كسر أثناء النقل. هدفنا إن عملية <strong>نقل العفش</strong> تكون سهلة عليك، بدون توتر، وبدون ما تضطر تعتمد على حلول عشوائية أو أفراد غير مدرَّبين.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY US -->
+  <section id="why" class="section why">
+    <div class="container">
+      <div class="why__title">
+        <!-- تم تحديث العنوان -->
+        <h2 class="title">لماذا تختار هذه الشركة في <strong>نقل العفش</strong>؟</h2>
+        <!-- تم إزالة العنوان الفرعي لعدم وجوده في المحتوى الجديد -->
+      </div>
+      <!-- تم الحفاظ على نفس الهيكل الشبكي (2 كارت + صورة) وتوزيع المحتوى الجديد عليها -->
+      <div class="why__grid">
+        <div class="feature scroll-animate"> <!-- ADDED class -->
+          <div class="feature__icon">⭐</div>
+          <strong>خبرة عملية طويلة</strong>
+          <p class="muted mt-10">في مجال <strong>نقل العفش</strong> داخل الأحياء السكنية والمناطق الحيوية.</p>
+          <strong class="mt-20">فريق عمالة مدرَّب</strong>
+          <p class="muted mt-10">على الفك، التركيب، والتغليف باحترافية عالية.</p>
+        </div>
+        <div class="why__center scroll-animate"> <!-- ADDED class -->
+          <!-- UPDATED IMAGE PATH -->
+          <img src="images/carpenter.jpg" alt="فريق نقل أثناء العمل">
+        </div>
+        <div class="feature scroll-animate"> <!-- ADDED class -->
+          <div class="feature__icon">⏰</div>
+          <strong>التعاون معك</strong>
+          <p class="muted mt-10">في اختيار أفضل توقيت لتنفيذ عملية <strong>نقل العفش</strong> بما يناسب جدولك اليومي.</p>
+          <strong class="mt-20">استخدام <strong>ونش رفع العفش</strong></strong>
+          <p class="muted mt-10">في الأماكن الضيقة والأدوار المرتفعة لتجنب أي تلف أو مجهود زائد.</p>
+          <strong class="mt-20">التزام كامل بالمواعيد</strong>
+          <p class="muted mt-10">مع خدمة عملاء تتابع معك خطوة بخطوة حتى اكتمال عملية النقل.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT / SPLIT -->
+  <section id="about" class="section">
+    <div class="container about__grid">
+      <!-- الصورة بقيت كما هي -->
+      <div class="about__img scroll-animate"> <!-- ADDED class -->
+        <!-- UPDATED IMAGE PATH -->
+        <img src="images/trucks.jpg" alt="شاحنة نقل">
+      </div>
+      <!-- تم تحديث كارت "عن الشركة" -->
+      <div class="about__card scroll-animate"> <!-- ADDED class -->
+        <h3 class="title" style="font-size:24px">من نحن؟</h3>
+        <p class="muted">نحن من بين أفضل <strong>شركات نقل العفش</strong> التي تهتم بأدق التفاصيل، بداية من معاينة المكان القديم والجديد، مرورًا بتحديد حجم العربية المناسبة، واختيار فريق العمل المناسب، وحتى تثبيت العفش في مكانه الجديد كما تطلب بالضبط.</p>
+      </div>
+      <!-- كارت "اتصل الآن" بقي كما هو للحفاظ على الأزرار -->
+      <aside class="about__callout scroll-animate"> <!-- ADDED class -->
+        <h4 class="title" style="font-size:22px">جاهزين اليوم!</h4>
+        <p class="muted">احجز زيارتنا أو اطلب تسعيرة فورية.</p>
+        <div class="kpis">
+          <div class="kpi"><strong>+1200</strong><div class="muted">عميل</div></div>
+          <div class="kpi"><strong>17</strong><div class="muted">سيارة</div></div>
+        </div>
+        <a class="btn" href="#contact">اطلب الآن</a>
+      </aside>
+    </div>
+  </section>
+
+  <!-- STATS STRIP -->
+  <!-- هذا القسم بقي كما هو لعدم وجود محتوى بديل له -->
+  <section class="stats">
+    <div class="container stats__inner">
+      <div class="stats__number">+1208</div>
+      <div>عميل راضٍ بخدمتنا</div>
+    </div>
+  </section>
+
+  <!-- NEW: Flowing Images Marquee -->
+  <section class="marquee-section">
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <!-- Original Set (Using the relative paths you provided) -->
+        <img src="images/carpenter.jpg" alt="نجار يركب الأثاث">
+        <img src="images/furniture-moving.jpg" alt="نقل أثاث">
+        <img src="images/hero.jpg" alt="شركة نقل عفش">
+        <img src="images/packing.jpg" alt="تغليف الأثاث">
+        <img src="images/packing1.jpg" alt="تغليف الأجهزة">
+        <img src="images/packing3.jpg" alt="تغليف الزجاج">
+        <img src="images/truck&winch.jpg" alt="شاحنة وونش">
+        <img src="images/trucks.jpg" alt="شاحنات نقل">
+        <img src="images/winch.jpg" alt="ونش رفع أثاث">
+        <!-- <img src="images/winch2.jpg" alt="ونش رفع عفش"> --> <!-- Removed winch2.jpg as it wasn't in the provided list this turn -->
+        
+        <!-- Duplicated Set (for seamless loop) -->
+        <img src="images/carpenter.jpg" alt="نجار يركب الأثاث">
+        <img src="images/furniture-moving.jpg" alt="نقل أثاث">
+        <img src="images/hero.jpg" alt="شركة نقل عفش">
+        <img src="images/packing.jpg" alt="تغليف الأثاث">
+        <img src="images/packing1.jpg" alt="تغليف الأجهزة">
+        <img src="images/packing3.jpg" alt="تغليف الزجاج">
+        <img src="images/truck&winch.jpg" alt="شاحنة وونش">
+        <img src="images/trucks.jpg" alt="شاحنات نقل">
+        <img src="images/winch.jpg" alt="ونش رفع أثاث">
+        <!-- <img src="images/winch2.jpg" alt="ونش رفع عفش"> -->
+      </div>
+    </div>
+  </section>
+  <!-- END Marquee -->
+
+
+  <!-- SERVICES -->
+  <section id="services" class="section">
+    <div class="container">
+      <!-- تم تحديث العنوان -->
+      <h2 class="title center">خدماتنا في <strong>نقل العفش</strong></h2>
+      <!-- تم إزالة العنوان الفرعي -->
+      <div class="services__grid mt-20">
+        <!-- تم تحديث الخدمات وإضافة الخدمة الرابعة -->
+        <article class="service scroll-animate"> <!-- MODIFIED: Added img and body wrapper -->
+          <!-- UPDATED IMAGE PATH -->
+          <img src="images/furniture-moving.jpg" alt="نقل العفش داخل المدينة" class="service__img">
+          <div class="service__body">
+            <div class="service__icon">1</div><h3><strong>نقل العفش</strong> داخل المدينة</h3><p class="muted">نوفر خدمة <strong>نقل العفش</strong> داخل المدينة من وإلى جميع الأحياء والمناطق السكنية. سواء كنت تنقل من شقة صغيرة أو فيلا كبيرة، نختار لك فريق العمل المناسب، وسيارات مخصصة لنقل الأثاث، لضمان أن كل شيء يصل بأمان إلى عنوانك الجديد.</p>
+          </div>
+        </article>
+        <article class="service scroll-animate"> <!-- MODIFIED: Added img and body wrapper -->
+          <!-- UPDATED IMAGE PATH -->
+          <img src="images/trucks.jpg" alt="نقل العفش بين المحافظات" class="service__img">
+          <div class="service__body">
+            <div class="service__icon">2</div><h3><strong>نقل العFش</strong> بين المحافظات</h3><p class="muted">لو محتاج تنقل خارج المدينة، فإحنا من <strong>شركات نقل العفش</strong> التي تقدم خدمة النقل بين المحافظات مع تجهيز كامل للعفش للتعامل مع المسافات الطويلة. نغلف، نرتب، ونثبت الأثاث داخل السيارة بطريقة تمنع الحركة الزائدة أثناء الطريق.</p>
+          </div>
+        </article>
+        <article class="service scroll-animate"> <!-- MODIFIED: Added img and body wrapper -->
+          <!-- UPDATED IMAGE PATH -->
+          <img src="images/winch.jpg" alt="ونش رفع العفش" class="service__img">
+          <div class="service__body">
+            <div class="service__icon">3</div><h3><strong>ونش رفع العفش</strong> للأدوار المرتفعة</h3><p class="muted">في كثير من الحالات، السلالم الضيقة أو المداخل الصغيرة تجعل نقل الأثاث يدويًا شبه مستحيل أو شديد الخطورة. هنا يظهر دور <strong>ونش رفع العفش</strong> الذي نستخدمه لرفع وتنزيل الأثاث الثقيل مثل الدواليب الكبيرة، الثلاجات، الأنتريهات، وغرف النوم، من وإلى الأدوار العالية بأمان كامل وبدون خدوش.</p>
+          </div>
+        </article>
+        <!-- تم إضافة الكارت الرابع بنفس التنسيق -->
+        <article class="service scroll-animate"> <!-- MODIFIED: Added img and body wrapper -->
+          <!-- UPDATED IMAGE PATH -->
+          <img src="images/packing1.jpg" alt="تغليف احترافي" class="service__img">
+          <div class="service__body">
+            <div class="service__icon">4</div><h3>تغليف احترافي قبل النقل</h3><p class="muted">نقدّم خدمة تغليف كامل للعفش باستخدام خامات عالية الجودة لحماية الأثاث من الخدوش والكسر أثناء النقل. نراعي في التغليف طبيعة كل قطعة: – الزجاج والأنتيكات لها تعامل خاص. – الأجهزة الكهربائية لها تغليف يحميها من الصدمات. – الأثاث الخشبي يُلف بطريقة تمنع الاحتكاك أثناء النقل.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Ribbon -->
+  <section class="section">
+    <div class="container">
+      <div class="cta scroll-animate"> <!-- ADDED class -->
+        <div class="cta__inner">
+          <!-- تم تحديث محتوى الـ CTA -->
+          <h3 class="title" style="color:#fff">دعوة أخيرة لاتخاذ القرار</h3>
+          <p>بدل ما تضيع وقتك في التجارب العشوائية أو الاعتماد على عمالة غير مدرَّبة، اختر التعامل مع <strong>شركة لنقل العفش</strong> تهتم براحتك وبعفشك من اللحظة الأولى حتى آخر قطعة تتثبت في مكانها.</p>
+          <p class="mt-10">سواء كنت تحتاج <strong>نقل عفش</strong> داخل الحي، بين المحافظات، أو تحتاج لاستخدام <strong>ونش رفع العفش</strong>، فنحن جاهزون لتقديم خدمة متكاملة ومريحة، تجعل يوم النقل يمر بهدوء وبدون توتر.</p>
+          <!-- الأزرار بقيت كما هي -->
+          <div class="mt-20"><a class="btn" href="#contact">اطلب العرض</a> <a class="btn btn--light" href="tel:01029896936">اتصل</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT / FOOTER -->
+  <footer>
+    <div id="contact" class="footer__top section"> <!-- تم إضافة ID هنا لزر "اطلب عرض سعر" -->
+      <div class="container">
+        <!-- تم إضافة المحتوى الجديد (أسعار، آراء، ..) في شبكة خاصة فوق الفوتر الأصلي -->
+        <div class="footer__grid scroll-animate" style="border-bottom: 1px solid var(--border); padding-bottom: 24px; margin-bottom: 24px;"> <!-- ADDED class -->
+          <div>
+            <h4 class="footer__title">أسعار تنافسية تناسب احتياجاتك</h4>
+            <p class="muted">نعرف أن تكلفة <strong>نقل العفش</strong> قد تكون مصدر قلق للكثيرين، لذلك نعتمد سياسة أسعار واضحة ومرنة. نحدد السعر بناءً على: حجم العفش وعدد الغرف، المسافة بين العنوانين، الحاجة إلى استخدام <strong>ونش رفع العفش</strong> من عدمه، وجود خدمات إضافية مثل التغليف الكامل أو تخزين الأثاث لفترة معينة. نسعى أن نكون <strong>شركة لنقل العفش</strong> تقدم أفضل قيمة مقابل السعر، بحيث تحصل على خدمة عالية الجودة بتكلفة معقولة ومناسبة لميزانيتك.</p>
+          </div>
+          <div>
+            <h4 class="footer__title"><strong>شركات نقل العفش</strong>… ليست كلها سواء</h4>
+            <p class="muted">في السوق ستجد العديد من <strong>شركات نقل العفش</strong>، لكن الفارق الحقيقي يكون في: مستوى تنظيم العمل، التزام المواعيد، سلامة العفش بعد النقل، طريقة التعامل مع العميل في حال حدوث أي مشكلة. نحن نضع هذه النقاط في مقدمة أولوياتنا، لأن هدفنا أن تكون تجربتك معنا مريحة لدرجة تجعلك ترشحنا لأي شخص يسألك عن <strong>شركة لنقل العفش</strong> موثوقة.</p>
+          </div>
+          <div>
+            <h4 class="footer__title">آراء بعض عملائنا</h4>
+            <p class="muted" style="border-right: 3px solid var(--brand-red); padding-right: 10px; margin-bottom: 15px;">"كانت تجربة <strong>نقل العفش</strong> أسهل مما توقعت، الفريق محترم ومنظم، واستخدموا <strong>ونش رفع العفش</strong> بدون ما حاجة تتخدش."</p>
+            <p class="muted" style="border-right: 3px solid var(--brand-red); padding-right: 10px;">"<strong>شركة نقل عفش</strong> ممتازة، الأسعار واضحة، والمواعيد ملتزمة، والأثاث وصل كما هو بدون أي تلف."</p>
+          </div>
+        </div>
+
+        <!-- تم الإبقاء على شبكة الفوتر الأصلية بالكامل للحفاظ على الروابط ومعلومات الاتصال -->
+        <div class="footer__grid scroll-animate"> <!-- ADDED class -->
+          <div>
+            <h4 class="footer__title">عن الكابتن إكسبريس</h4>
+            <p class="muted">نخدم كافة مدن المملكة بخدمة نقل عفش احترافية: تغليف، ونش، وفك وتركيب — بمواعيد دقيقة وأسعار واضحة.</p>
+          </div>
+          <div>
+            <h4 class="footer__title">روابط</h4>
+            <p><a href="#why">لماذا نحن</a></p>
+            <p><a href="#services">الخدمات</a></p>
+            <p><a href="#blog">كيف نعمل</a></p>
+            <p><a href="#contact">تواصل</a></p>
+          </div>
+          <div>
+            <h4 class="footer__title">تواصل</h4>
+            <p>📞 <a href="tel:01029896936">01029896936</a></p>
+            <p>✉️ <a href="mailto:info@example.com">info@example.com</a></p>
+            <p>🟢 <a href="https://wa.me/201029896936" target="_blank" rel="noopener">واتساب فوري</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container copyright"><small>© <span id="year"></span> الكابتن إكسبريس — جميع الحقوق محفوظة</small></div>
+  </footer>
+
+  <!-- NEW: Floating Call Button -->
+  <!-- MODIFICATION: Changed href from "tel:..." to "#" -->
+  <a href="#" class="floating-btn" id="floating-call-btn" aria-label="اتصل بنا الآن">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.06-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C6.842 18 2 13.158 2 7V3z"></path></svg>
+<span>01029896936</span>
+  </a>
+
+  <!-- NEW: Call Confirmation Modal -->
+  <div id="call-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-box">
+      
+      <!-- STEP 1: Confirmation -->
+      <div id="modal-step-1">
+        <h3 id="modal-title">تأكيد الاتصال</h3>
+        <p>هل أنت متأكد أنك تريد الاتصال بالرقم <strong>01029896936</strong>؟</p>
+        <div class="modal-buttons">
+          <!-- This is NOT a link anymore -->
+          <button type="button" id="modal-to-step-2-btn" class="btn">نعم، أريد الاتصال</button>
+          <button id="modal-cancel-call" class="btn btn--light" type="button">إلغاء</button>
+        </div>
+      </div>
+
+      <!-- STEP 2: Final Call Action (Hidden by default) -->
+      <div id="modal-step-2" style="display: none; text-align: center;">
+        <div class="phone-icon-animated">
+          <!-- SVG for phone icon -->
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" width="48" height="48">
+            <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.06-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C6.842 18 2 13.158 2 7V3z"></path>
+          </svg>
+        </div>
+        <p style="font-size: 1.5rem; font-weight: 800; color: var(--navy); margin-top: 16px;">
+          إضغط على الرقم لبدء الاتصال
+        </p>
+        <!-- This is the ONLY real call link -->
+        <a href="tel:01029896936" id="modal-confirm-call" class="btn" style="font-size: 1.2rem; margin-top: 8px;">
+          01029896936
+        </a>
+        <button id="modal-cancel-call-2" class="btn btn--light" type="button" style="margin-top: 16px;">إلغاء</button>
+      </div>
+
+    </div>
+  </div>
+
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(a=>a.addEventListener('click',e=>{const id=a.getAttribute('href');if(id.length>1){e.preventDefault();document.querySelector(id)?.scrollIntoView({behavior:'smooth'});}}));
+    document.getElementById('year').textContent=new Date().getFullYear();
+
+    // MODIFIED Intersection Observer for bounce-in
+    const animatedElements = document.querySelectorAll('.scroll-animate'); // Select all elements
+    if (animatedElements.length > 0) { // Check if any elements exist
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-visible');
+            observer.unobserve(entry.target); // Animate only once
+          }
+        });
+      }, { threshold: 0.1 }); // Trigger when 10% of the section is visible
+
+      animatedElements.forEach(el => observer.observe(el)); // Observe all elements
+    }
+
+    // --- NEW Call Confirmation Modal Logic ---
+    const modal = document.getElementById('call-modal');
+    if (modal) {
+      const modalStep1 = document.getElementById('modal-step-1');
+      const modalStep2 = document.getElementById('modal-step-2');
+      
+      const modalToStep2Btn = document.getElementById('modal-to-step-2-btn');
+      const modalCancelBtn1 = document.getElementById('modal-cancel-call');
+      const modalCancelBtn2 = document.getElementById('modal-cancel-call-2');
+      const modalConfirmCallBtn = document.getElementById('modal-confirm-call');
+
+      // 1. Select all triggers
+      // MODIFICATION: Explicitly added #floating-call-btn to the selector
+      const callTriggers = document.querySelectorAll('a[href^="tel:"], a.btn[href="#contact"], #floating-call-btn');
+
+      // 2. Function to open modal
+      const openModal = (e) => {
+        // IMPORTANT: Only prevent default if it's NOT the final confirm button
+        if (e.currentTarget.id !== 'modal-confirm-call') {
+          e.preventDefault(); // Stop the default call (or scroll)
+          
+          // Reset to step 1 every time
+          modalStep1.style.display = 'block';
+          modalStep2.style.display = 'none';
+          
+          modal.classList.add('is-visible');
+        }
+      };
+
+      // 3. Function to close modal
+      const closeModal = () => {
+        modal.classList.remove('is-visible');
+      };
+      
+      // 4. Function to go to step 2
+      const goToStep2 = () => {
+        modalStep1.style.display = 'none';
+        modalStep2.style.display = 'flex'; // Use flex for centering
+        modalStep2.style.flexDirection = 'column';
+        modalStep2.style.alignItems = 'center';
+      };
+
+      // 5. Assign listeners to all triggers
+      callTriggers.forEach(trigger => {
+        if (trigger.id !== 'modal-confirm-call') {
+          trigger.addEventListener('click', openModal);
+        }
+      });
+
+      // 6. Assign listeners to modal buttons
+      modalToStep2Btn.addEventListener('click', goToStep2);
+      modalCancelBtn1.addEventListener('click', closeModal);
+      modalCancelBtn2.addEventListener('click', closeModal);
+
+      // 7. Assign listener to final confirm button (to close modal after click)
+      modalConfirmCallBtn.addEventListener('click', () => {
+         // Hide modal immediately, the 'tel:' link will proceed
+        setTimeout(closeModal, 100); 
+      });
+
+      // 8. Assign listener to overlay click
+      modal.addEventListener('click', (e) => {
+        // Close if clicking on the overlay (backdrop)
+        if (e.target === modal) {
+          closeModal();
+        }
+      });
+    }
+    // --- END Call Confirmation Modal Logic ---
+  </script>
+</body>
+</html>
